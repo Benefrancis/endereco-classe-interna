@@ -7,7 +7,6 @@ public class Main {
     public static void main(String[] args) {
         Endereco e = new Endereco();
 
-
         Endereco.Pais pais = e.new Pais("Brasil");
         Endereco.Estado estado = e.new Estado("São Paulo", pais);
         Endereco.Cidade cidade = e.new Cidade("Osasco", estado);
